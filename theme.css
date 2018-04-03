@@ -1,0 +1,71 @@
+/* ======================================================
+	Common Styling
+====================================================== */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #000;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	background: #ccc;
+}
+
+
+
+
+/* ======================================================
+	Basic Styling
+====================================================== */
+header{
+	background: #282828;
+	padding: 50px 0;
+	color: #fff;
+}
+.container{}
+.container h1{}
+.container h3{}
+.container p{}
+.section {
+  padding: 100px 0;
+  width: 100%;
+}
+.section.bg-color{
+	background: #aaa;
+}
+.section h2 {
+  border-bottom: 4px dotted #000;
+  display: inline-block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.section nav{}
+.section nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section nav ul li {
+  display: inline-block;
+}
+.section nav ul li a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #980;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.5s ease 0s;
+}
+.section nav ul li a span{}
+footer{
+	background: #282828;
+	padding: 20px 0;
+	color: #fff;
+}
+footer h2{}
+footer h3{}
+footer p{}
